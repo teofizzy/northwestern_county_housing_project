@@ -1,4 +1,5 @@
 # Column Names and Descriptions for King County Data Set
+
 * `id` - Unique identifier for a house
 * `date` - Date house was sold
 * `price` - Sale price (prediction target)
@@ -24,3 +25,7 @@
 * `long` - Longitude coordinate
 * `sqft_living15` - The square footage of interior housing living space for the nearest 15 neighbors
 * `sqft_lot15` - The square footage of the land lots of the nearest 15 neighbors
+* 'house_age' - the age of the house at the time of selling
+* 'renovated' - binary, 0 for not renovated and 1 for renovated
+* 
+* 
