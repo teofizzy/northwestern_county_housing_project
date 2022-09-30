@@ -1,4 +1,4 @@
-,price,price_log,sqft_above,sqft_above_log,sqft_lot,sqft_lot_log,sqft_living15,sqft_living15_log,sqft_lot15,house_age,bedrooms,bathrooms,floors,zip_B,zip_C,zip_D,zip_E,zip_F,zip_G,zip_H,zip_I,water_1,base_1.0,reno_1.0,cond_1,cond_2,cond_3,cond_4
+,price,price_log,sqft_above,sqft_above_log,sqft_lot,sqft_lot_log,sqft_living15,sqft_living15_log,sqft_lot15,house_age,bedrooms,bathrooms,floors,zip_B,zip_C,zip_D,zip_E,zip_F,zip_G,zip_H,zip_I,water_1,base_1.0,reno_1.0,cond_1.0,cond_2.0,cond_3.0,cond_4.0
 0,221900.0,12.309982108920686,1180,7.07326971745971,5650,8.639410824140487,1340,7.200424892944957,5650,59,3,1.0,1.0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1
 1,538000.0,13.195613839143922,2170,7.682482446534506,7242,8.887652690325586,1690,7.432483807917119,7639,63,3,2.25,2.0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1
 2,180000.0,12.100712129872347,770,6.646390514847729,10000,9.210340371976184,2720,7.908387159290043,8062,82,2,1.0,1.0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1
