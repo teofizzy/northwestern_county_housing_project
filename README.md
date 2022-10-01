@@ -90,16 +90,16 @@ The most correlated with price was *sqft_living* with a correlation coefficient 
 * With a waterfront, a house is guaranteed to be priced above the median but still there are houses without waterfront that are above median.
 * Houses that were renovated have a slightly higher price than those that are not renovated.
 ## Recommendations
-### For a land owner:
+### For a land owner
 * A land owner would want to own land near a waterfront because they attract houses with higher prices.
 * Having a parcel of land close to a waterfront would imply that it the land owner would have a strong bargaining chip given that a real estate agency would sell a house built on that parcel of land for a high price.
 * The best waterfront properties with a high value in price are found in *Zip_C* around Bellevue, Mercer Island and Newcastle.
-### For a home owner:
+### For a home owner
 * A home owner that seeks to get a high sell-on value would renovate the house in order to increase the condition and grade of the house. This drives up the price of the house since houses with renovation and houses with good conditions have a high value in terms of price.
 * A home owner that is seeking to buy a good home would go for a home with high square footage above ground and a house with around 6-8 bedrooms since beyond 8 bedrooms the price of a house tend to decrease. This might be as a result of an increase in the number of bedrooms that is not followed by an increase in the square footage above ground. This would not be desirable for a homeowner due to congestion of the space.
 * If the home owner wants to live in the 'expensive' residences and live a luxurious lifestyle then the homeowner would consider areas around *zip C* that have a waterfront.
 * If an individual wants to be a homeowner in King County, the individual is adviced to make the purchase in Winter when the prices are relatively lower than other seasons.
-### For real estate agencies:
+### For real estate agencies
 * A real estate firm looking to get value for their money should focus in areas around *zip_C* with a waterfront property.
 * A real estate firm could also look to focus on properties with high square footage in the living area.
 * A real estate firm could also renovate old properties to a very high grade and condition and then sell them for a good price.
