@@ -1,4 +1,7 @@
 # king_county_housing_project
+**Author**: Teofilo Acholla Ligawa Gafna
+
+**Tableau dashboard**: https://public.tableau.com/views/KingCountyHousingInfographic/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 ## Descripttion
 The study was conducted to assist in prediction of housing prices in King County based on the presence of a waterfront, season, grade, region and number of bedrooms.
 ## Overview
@@ -75,6 +78,9 @@ The most correlated with price was *sqft_living* with a correlation coefficient 
 ![image](https://user-images.githubusercontent.com/78497452/193421129-5f821661-6262-4be5-a352-7b359135c07e.png)
 * Generally, houses with *waterfront* have higher prices and in C and G they are quite high with C having houses with high *sqft_above*.
 * Area C looks to be a lavish area, an increase in *sqft_above* is followed by an increase in *price* more than any other place, with the most expensive houses being located in Area C, which is Bellevue, Medina, Mercer Island and Newcastle.
+
+## Multicollinearity
+Multicollinearity was tested and features like sqft_living were dropped due to multicollinearity despite having the highest correlation coefficient with price.
 ## Conclusion
 * Houses sold in Spring are more expensive than other seasons.
 * The median price of homes in King County is 450000.0 dollars
@@ -105,3 +111,35 @@ The most correlated with price was *sqft_living* with a correlation coefficient 
 * A real estate firm could also renovate old properties to a very high grade and condition and then sell them for a good price.
 * The firm should invest in houses of around 6 - 8 bedrooms since beyond that then an increase in the number of bedrooms is not desirable if the space is not big enough.
 * A real estate firm looking to make the most profit should seek to sell the house in Spring when the prices are relatively higher than other seasons.
+## Building A linear Model
+### Baseline Model
+A simple linear regression baseline model was done, this included sqft_above and price.
+The results were as follows:
+#### Model interpretation:
+
+The model is significant at 5 % level of significance with the probability value of the F-test being 0.00 which is less than 0.05.
+The model explains 36.6 % of the variation in price of houses in king county, shown by the value of R squared which is 0.366.
+The coefficients of the model are statistically significant  with the probability of their respective t-tests being 0.00 which is less than 0.05.
+
+##### Coefficients:
+
+For a house with **sqft_above** value of zero, the price is expected to be around 60,000 dollars.
+For a unit increase in **sqft_above** of the house, there is a resultant increase in price of the house by about 268 dollars.
+
+##### Model overview:
+The model was thought of as not adequate to explain the variation in sales due to the r squared of 0.366 not being high enough to explain most of the variation in sales.
+
+### The final model
+A multiple linear regression model was performed with one-hot encoding of the categorical variables with most of the continuous variables.
+The results were as follows:
+The refrence categories for the categorical variables are:
+* *water_0* - houses without a waterfront
+* *reno_0.0* - houses without renovation done on them
+* *base_0.0* - houses without a basement
+* *cond_0.0* - houses of a poor condition
+* *Zip_A* - houses from Zip area A
+#### Model interpretation
+* Overally, the model is statistically significant with the p value of the F test being 0.00 which is less than the alpha value of 0.05.
+* The model explains 75.7% of the variation in house prices in the King County Area shown by the adjusted R squared value of 0.757
+#### Coefficients
+https://github.com/teofizzy/northwestern_county_housing_project/blob/a6b64311feec0cd3297bc9dd9a5dfbe224d513e3/data/coeff.csv
